@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapi-caption"
+version = "0.1.0"
+description = ""
+authors = ["alirezaJavaheri <alireza.jvh98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.100.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+python-multipart = "^0.0.6"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+sqlalchemy = "^2.0.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
